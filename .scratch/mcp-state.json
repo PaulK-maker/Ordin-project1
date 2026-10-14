@@ -1,0 +1,26 @@
+{
+  "diffs": [
+    {
+      "file": "c:\\Users\\Owner\\Desktop\\2026 designs\\Ordin_Projects\\index.js",
+      "timestamp": 1791961064754,
+      "toonString": "type: FileDiff\nfile: c:\\Users\\Owner\\Desktop\\2026 designs\\Ordin_Projects\\index.js\ntimestamp: 1791961062178\nchanges:\n  - line: 1-44\n    added: |\n      const myLibrary = [\"happiness,Love,Peace, Joy\"];\r\n      \r\n      function Book(title, author, pages, read) {\r\n        // the constructor...\r\n        this.title = title;\r\n        this.author = author;\r\n        this.pages = pages;\r\n        this.read = read;\r\n      }\r\n      \r\n      function addBookToLibrary(title, author, pages, read) {\r\n        const newBook = new Book(title, author, pages, read);\r\n        myLibrary.push(newBook);\r\n        console.log(myLibrary);\r\n      };\r\n      \r\n      const items = [\"item1\", \"item2\", \"item3\"];\r\n      \r\n      for (let i = 0; i < items.length; i++) {\r\n        console.log(  myLibrary[i]);\r\n      }\r\n      \r\n      for(let i=0;i<)\r\n      \r\n        items.forEach(item)=>\r\n        CopyOfItems.push(items)\r\n      \r\n      \r\n      \r\n      \r\n        function displayBooks() {\r\n          const container = document.getElementById('book-container');\r\n          myLibrary.forEach(book => {\r\n              const bookDiv = document.createElement('div');\r\n              bookDiv.textContent = `${book.title} by ${book.author}, ${book.pages} pages, ${book.read ? 'read' : 'not read'}`;\r\n              container.appendChild(bookDiv);\r\n          });\r\n      \r\n          false\r\n      \r\n      \r\n      \r\n      \r\n      \r\n          function displayBooks() {\nsummary: |\n  Failed to generate summary: API key not configured. Please configure your API key using 'Scratch: Configure API Key' command.\ncontextAware: false\n",
+      "diff": {
+        "type": "FileDiff",
+        "file": "c:\\Users\\Owner\\Desktop\\2026 designs\\Ordin_Projects\\index.js",
+        "timestamp": 1791961062178,
+        "changes": [
+          {
+            "line": "1-44",
+            "added": "const myLibrary = [\"happiness,Love,Peace, Joy\"];\r\n\r\nfunction Book(title, author, pages, read) {\r\n  // the constructor...\r\n  this.title = title;\r\n  this.author = author;\r\n  this.pages = pages;\r\n  this.read = read;\r\n}\r\n\r\nfunction addBookToLibrary(title, author, pages, read) {\r\n  const newBook = new Book(title, author, pages, read);\r\n  myLibrary.push(newBook);\r\n  console.log(myLibrary);\r\n};\r\n\r\nconst items = [\"item1\", \"item2\", \"item3\"];\r\n\r\nfor (let i = 0; i < items.length; i++) {\r\n  console.log(  myLibrary[i]);\r\n}\r\n\r\nfor(let i=0;i<)\r\n\r\n  items.forEach(item)=>\r\n  CopyOfItems.push(items)\r\n\r\n\r\n\r\n\r\n  function displayBooks() {\r\n    const container = document.getElementById('book-container');\r\n    myLibrary.forEach(book => {\r\n        const bookDiv = document.createElement('div');\r\n        bookDiv.textContent = `${book.title} by ${book.author}, ${book.pages} pages, ${book.read ? 'read' : 'not read'}`;\r\n        container.appendChild(bookDiv);\r\n    });\r\n\r\n    false\r\n\r\n\r\n\r\n\r\n\r\n    function displayBooks() {",
+            "removed": "",
+            "modified": ""
+          }
+        ],
+        "summary": "Failed to generate summary: API key not configured. Please configure your API key using 'Scratch: Configure API Key' command.",
+        "contextAware": false
+      },
+      "summary": "Failed to generate summary: API key not configured. Please configure your API key using 'Scratch: Configure API Key' command."
+    }
+  ],
+  "lastUpdated": 1791961064756
+}
